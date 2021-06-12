@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.noear</groupId>
+    <artifactId>solon_auth_demo</artifactId>
+    <version>demo</version>
+    <packaging>pom</packaging>
+
+    <description>Java project for solon-auth demo</description>
+
+    <modules>
+        <module>demo_beetl</module>
+        <module>demo_enjoy</module>
+        <module>demo_freemarker</module>
+        <module>demo_jsp</module>
+        <module>demo_thymeleaf</module>
+        <module>demo_velocity</module>
+    </modules>
+
+</project>

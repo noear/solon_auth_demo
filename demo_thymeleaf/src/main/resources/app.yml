@@ -1,0 +1,5 @@
+server.port: 8085
+
+solon.app:
+  name: demoapp
+  group: demo
