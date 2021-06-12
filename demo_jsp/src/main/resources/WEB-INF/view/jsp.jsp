@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<%@ taglib prefix="auth" uri="http://solon.noear.org/jsp/jstl/auth" %>
+<%@ taglib prefix="auth" uri="http://solon.noear.org/auth" %>
 <html>
 <head>
     <title>${title}</title>
