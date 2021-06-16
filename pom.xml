@@ -12,6 +12,7 @@
     <description>Java project for solon-auth demo</description>
 
     <modules>
+        <module>demo__java</module>
         <module>demo_beetl</module>
         <module>demo_enjoy</module>
         <module>demo_freemarker</module>
