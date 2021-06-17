@@ -2,9 +2,9 @@
 
 solon_auth_demo
 
-#### 授权标签例
+#### 授权标签
 
-beetl 示例：
+demo_beetl 示例：
 
 ```html
 <#authPermissions name="user:del">
@@ -16,7 +16,7 @@ beetl 示例：
 </#authRoles>
 ```
 
-enjoy 示例：
+demo_enjoy 示例：
 
 ```html
 #authPermissions("user:del")
@@ -28,7 +28,7 @@ enjoy 示例：
 #end
 ```
 
-freemarker 示例：
+demo_freemarker 示例：
 
 ```html
 <@authPermissions name="user:del">
