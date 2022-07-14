@@ -12,11 +12,16 @@
     <parent>
         <groupId>org.noear</groupId>
         <artifactId>solon-parent</artifactId>
-        <version>1.7.2</version>
+        <version>1.9.2</version>
         <relativePath />
     </parent>
 
     <dependencies>
+        <dependency>
+            <groupId>org.noear</groupId>
+            <artifactId>solon-api</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.noear</groupId>
             <artifactId>solon.boot.jetty</artifactId>
@@ -25,11 +30,6 @@
         <dependency>
             <groupId>org.noear</groupId>
             <artifactId>solon.boot.jetty.add.jsp</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.noear</groupId>
-            <artifactId>solon.config.yaml</artifactId>
         </dependency>
 
         <dependency>
