@@ -10,7 +10,6 @@
     <packaging>pom</packaging>
 
     <name>_root</name>
-
     <description>Java project for solon-auth demo</description>
 
     <modules>
