@@ -10,7 +10,7 @@ public class DemoApp {
         Solon.start(DemoApp.class, args).onError(e->e.printStackTrace());
 
         /**
-         * 此Demo只能看，不能运行；其中，BcfClient 需要初始化数据库和缓存;
+         * 此Demo只能看，不能运行；其中，grit-solon-plugin 需要初始化数据库和缓存;
          * */
     }
 }
