@@ -4,6 +4,11 @@
 ```java
 public  class AuthProcessorImpl extends AuthProcessorBase {
     @Override
+    public boolean verifyLogined() {
+        return true;
+    }
+
+    @Override
     protected List<String> getPermissions() {
         List<String> list = new ArrayList<>();
 
