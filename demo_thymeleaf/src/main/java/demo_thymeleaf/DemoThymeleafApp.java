@@ -7,7 +7,6 @@ import org.noear.solon.Solon;
  */
 public class DemoThymeleafApp {
     public static void main(String[] args) {
-        Solon.start(DemoThymeleafApp.class, args)
-                .onError(e->e.printStackTrace());
+        Solon.start(DemoThymeleafApp.class, args);
     }
 }

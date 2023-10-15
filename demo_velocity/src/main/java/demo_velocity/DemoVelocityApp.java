@@ -7,7 +7,6 @@ import org.noear.solon.Solon;
  */
 public class DemoVelocityApp {
     public static void main(String[] args) {
-        Solon.start(DemoVelocityApp.class, args)
-                .onError(e->e.printStackTrace());
+        Solon.start(DemoVelocityApp.class, args);
     }
 }

@@ -7,7 +7,7 @@ import org.noear.solon.Solon;
  */
 public class DemoApp {
     public static void main(String[] args) {
-        Solon.start(DemoApp.class, args).onError(e->e.printStackTrace());
+        Solon.start(DemoApp.class, args);
 
         /**
          * 此Demo只能看，不能运行；其中，grit-solon-plugin 需要初始化数据库和缓存;
